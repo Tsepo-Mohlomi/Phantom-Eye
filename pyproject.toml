@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phantom-eye"
+version = "0.1.0"
+description = "Consent-based Linux LAN device inventory"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Phantom Eye contributors"}]
+
+[project.scripts]
+phantom-eye = "phantom_eye.cli:main"
